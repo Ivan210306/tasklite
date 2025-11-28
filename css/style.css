@@ -41,3 +41,19 @@ html, body {
     linear-gradient(#f6f3f9, #fbfaf8);
   background-attachment: fixed;
 }
+.form-add__input:focus-visible{
+  outline: none;
+  border-color: #7e66cd;
+  box-shadow: 0 0 0 3px rba(126, 102, 205, 0.28);
+}
+.form-add__button:hover{
+  background: #735cc6;
+  box-shadow: 0 px 16px rgba(115, 92, 198, 0.28);
+}
+.form-add__button:focus-visible{
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(126, 102, 205, 0.3);
+}
+.form-add__button:active{
+  transform: translateY(1px);
+}
